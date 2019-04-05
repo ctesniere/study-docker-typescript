@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  study-docker-typescript:
+    container_name: study_docker_typescript
+    image: study_docker_typescript
+    build: .
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      NODE_ENV: development
+    ports:
+      - 8080:3000

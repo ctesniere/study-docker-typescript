@@ -1,0 +1,12 @@
+{
+  "name": "study-docker-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docker:sh": "docker exec -it study_docker_typescript sh"
+  },
+  "dependencies": {
+    "@types/node": "^11.13.0"
+  }
+}
